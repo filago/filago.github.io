@@ -3,13 +3,13 @@ title:  "Prusa Preheat"
 layout: post
 ---
 
-## Using a preheat GCODE file
+### Using a GCODE file to preheat
 
 Here's an easy way to set preheat temperatures on a Prusa.
 
-Place a file on the SD card to "print" from the Prusa menu, which sets the desired temps.  For example:
+Keep a file that sets your desired preheat temps on the SD card, and "print" it from the Prusa menu.  For example:
 
-### PETG preheat 170 & 75C.gcode
+#### PETG preheat 170 & 75C.gcode
 ````
 M104 S170 ; set nozzle temp to 170C, and don't wait
 M140 S75 ; set bed temp to 75C, and don't wait
@@ -20,11 +20,11 @@ M73 P100 R0 ; set print progress to 100% and time remaining to 0
 170 and 75C are pretty good temps for my i3 MK3.  The nozzle won't drool much, and when the print is launched both bed and nozzle will reach the final temps at about the same time.
 
 
-Of course, preheat temps could be set directly through the Prusa menu, but I find it easier and faster to "print" a file from the SD card instead.
+Of course, preheat temps can be set directly through the Prusa menu, but I find it easier and faster to print a file from the SD card instead.
 
 
 
-## Other files using the same idea
+### Other files using the same idea
  
 #### Nozzle heat 230C.gcode (for nozzle cleaning or filament changes)
 ````
