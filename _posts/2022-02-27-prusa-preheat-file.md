@@ -11,8 +11,8 @@ Keep a file that sets your desired preheat temps on the SD card, and "print" it 
 
 #### PETG preheat 170 & 75C.gcode
 ````
-M104 S170 ; set nozzle temp to 170C, and don't wait
-M140 S75 ; set bed temp to 75C, and don't wait
+M104 S170 ; set nozzle temp to 170C, and continue without waiting
+M140 S75 ; set bed temp to 75C, and continue without waiting
 M84 ; disable motors to prevent popup showing that file is incomplete
 M73 P100 R0 ; set print progress to 100% and time remaining to 0
 ````
@@ -28,16 +28,16 @@ Of course, preheat temps can be set directly through the Prusa menu, but I find 
  
 #### Nozzle heat 230C.gcode (for nozzle cleaning or filament changes)
 ````
-M104 S230 ; set nozzle temp to 230C, and don't wait
-M140 S0 ; set bed temp off, and don't wait
+M104 S230 ; set nozzle temp to 230C, and continue without waiting
+M140 S0 ; set bed temp off, and continue without waiting
 M84 ; disable motors to prevent popup showing that file is incomplete
 M73 P100 R0 ; set print progress to 100% and time remaining to 0
 ````
 
 #### temps off.gcode (to turn the heaters off)
 ````
-M104 S0 ; set nozzle temp off, and don't wait
-M140 S0 ; set bed temp off, and don't wait
+M104 S0 ; set nozzle temp off, and continue without waiting
+M140 S0 ; set bed temp off, and continue without waiting
 M84 ; disable motors to prevent popup showing that file is incomplete
 M73 P100 R0 ; set print progress to 100% and time remaining to 0
 ````
