@@ -3,11 +3,11 @@ title:  "Prusa Preheat"
 layout: post
 ---
 
-Here's how I save some time by preheating the Prusa printbed and nozzle when I first turn the printer on, whle waiting for the RPi Zero to boot and connect to OctoPrint.
+##Using a preheat GCODE file
 
-Of course, you can do this directly through the Prusa menu as soon as it's on, but it's easier and faster to simply "print" a file from the SD card to make the settings for you.
+Here's an easy way to set preheat temps on a Prusa.
 
-For example, I have a file named "PETG preheat 170 &75C.gcode" with the following lines in it:
+Place a file on the SD card to "print" from the Prusa menu, which sets the desired temps.  Here's on I use, named "PETG preheat 170 & 75C.gcode" with just four lines:
 
 ````
 M104 S170 ; set nozzle temp to 170C, and don't wait
@@ -16,9 +16,14 @@ M84 ; disable motors to prevent popup showing that file is incomplete
 M73 P100 R0 ; tell printer this code is finished
 ````
 
-Through trial an error, I've figured out that 170 and 75C are pretty good starting points.  The nozzle doesn't drool much at that temp, and then they will both reach the final print temp at about the same time.
+Through trial an error, I've figured out that 170 and 75C are pretty good starting points.  The nozzle won't drool much, and then both bed and nozzle will reach the final temps about the same time when the print is launched.
 
-Other useful files are:
+
+Of course, preheat temps could be set directly through the Prusa menu, but I find it easier and faster to "print" a file from the SD card instead.
+
+
+
+##Other useful files:
 
 "Nozzle preheat 230C.gcode", to heat the nozzle for cleaning or filament changes without heating the bed.
 ````
@@ -47,43 +52,4 @@ M73 P100 R0 ; tell printer this code is finished
 ##### Heading Five (h5)
 
 ###### Heading Six (h6)
-
-
-## Blockquotes
-
-### Single line
-
-> My mom always said life was like a box of chocolates. You never know what you're gonna get.
-
-### Multiline
-
-> What do you get when you cross an insomniac, an unwilling agnostic and a dyslexic?
->
-> You get someone who stays up all night torturing himself mentally over the question of whether or not there's a dog.
->
-> – _Hal Incandenza_
-
-## Horizontal Rule
-
----
-
-## Table
-
-| Title 1          | Title 2          | Title 3         | Title 4         |
-|------------------|------------------|-----------------|-----------------|
-| First entry      | Second entry     | Third entry     | Fourth entry    |
-| Fifth entry      | Sixth entry      | Seventh entry   | Eight entry     |
-| Ninth entry      | Tenth entry      | Eleventh entry  | Twelfth entry   |
-| Thirteenth entry | Fourteenth entry | Fifteenth entry | Sixteenth entry |
-
-## Code
-
-Source code can be included by fencing the code with three backticks. Syntax highlighting works automatically when specifying the language after the backticks.
-
-````
-M104 S170 ; set nozzle temp to 170C, and don't wait - 180 has minor drooling
-M140 S75 ; set bed temp to 75C, and don't wait
-M84 ; disable motors to prevent popup showing that file is incomplete
-M73 P100 R0 ; tell machine that we're done
-````
 
