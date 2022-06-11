@@ -20,7 +20,7 @@ M73 P100 R0 ; set print progress to 100% and time remaining to 0
 170 and 75C work well with my i3 MK3.  The nozzle won't drool much, and when the print is launched both bed and nozzle will reach the final temps at about the same time.
 
 
-Of course, preheat temps can be set directly through the Prusa menu, but I find it easier and faster to print a file from the SD card instead.
+Of course, preheat temps can be set directly through the Prusa menu, but sometimes I find it more convenient to print a file from the SD card instead.
 
 
 
