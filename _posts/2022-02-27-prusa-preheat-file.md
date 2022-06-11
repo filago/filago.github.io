@@ -1,6 +1,7 @@
 ---
 title:  "Prusa Preheat"
 layout: post
+categories: 3D printing
 ---
 
 ### Using a GCODE file to preheat
