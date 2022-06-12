@@ -6,7 +6,7 @@ categories:
   - python
 ---
 
-![3D Squares puzzle](/assets/images/IMG_8250 v2.jpg)
+![3D Squares puzzle](/assets/images/IMG_8250 v3.jpg)
 
 This puzzle was found in the back of our games cupboard.  Abandoned years ago, I don't think we ever solved it.
 
@@ -42,8 +42,8 @@ It turns out that this eliminates almost all of the brute-force possibilities, r
 I'm tempted to try solving it by hand using this method, at least for long enough to estimate how long it would take to complete.  And I would love to know if there's a way to improve on it to speed up the solution even more.
 
 ## Solutions
-Here are the two solutions I've found.  They are almost identical, with only the upper-right and lower-left tile swapped as shown.
+Here are the only two solutions I've found.  They are almost identical, with the upper-right and lower-left tiles swapped.
 
-![solution 1](/assets/images/IMG_8253 v2.jpg)
+![solution 1](/assets/images/IMG_8253 v3.jpg)
 
-![solution 2](/assets/images/IMG_8255 v2.jpg)
+![solution 2](/assets/images/IMG_8255 v3.jpg)
