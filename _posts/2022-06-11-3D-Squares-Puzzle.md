@@ -22,7 +22,7 @@ With 9 tiles and 4 rotation options each, the number of unique plays is surprisi
 
 (9! x 4^9) = 95.1 Billion possibilities.
 
-If someone actually attempted to try every possibility by hand, they would almost certainly die of old age without finding a solution.  As one Amazon reviewer pointed out, trying one attempt every second would require **over 3,000 years** to check them all.
+If someone actually attempted to try every possibility by hand, they would almost certainly die of old age without finding a solution.  As one Amazon reviewer pointed out, even if you could try one every second it would require **over 3,000 years** to check them all.
 
 Even a computer program could take a long time to evaluate that many plays.  My old PC can evaluate about 20,000 plays per second using python, so it would take almost two months to finish.  This could be improved with faster programs and computers, but I'm more interested in fundamentally better strategies to solve the puzzle.
 
