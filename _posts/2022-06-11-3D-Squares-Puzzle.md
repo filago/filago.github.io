@@ -14,21 +14,25 @@ It's deceptively simple to explain. There are just 9 tiles to place on the 3x3 b
 
 So how hard could it be?  It turns out that depends on how you approach it…
 
-### Brains vs Brawn : 2 approaches to solve it
+## Brains vs Brawn : 2 approaches to solve it
 
-## First, the "brawn" method.
-The brute force approach; testing every possibility without ruling any of them out. 
+### The "brawn" method.
+The brute force approach: Test every possibility without ruling any of them out. 
 
-With 9 tiles, each having 4 rotation options, the number of unique plays is overwhelming.  (9! * 4^9) = 95.1 Billion possibilities.
+With 9 tiles and 4 rotation options each, the number of unique plays is overwhelming.
+
+(9! * 4^9) = 95.1 Billion possibilities.
+
 If someone actually tried this approach by hand and was too stubborn to give up or try a better method,
-they would almost certainly die of old age without finding a solution.
-As one Amazon reviewer pointed out, trying 1 attempt every second would require over 3,000 years to check them all.
+they would almost certainly die of old age without finding a solution.  As one Amazon reviewer pointed out, trying 1 attempt every second would require over 3,000 years to check them all.
+
 Even a computer program could take a long time to evaluate that many plays.  I created a python program for it, which evaluates about 20,000 such plays per second and running on a 12 year old PC.  This would require almost 2 months to finish.
 
-## Second, the "brains" method.
-Adding some logic to eliminate possibilities that can't produce a solution.
+### The "brains" method.
+Add some logic to eliminate possibilities that can't produce a solution.
 
 Begin the play on the center board square, and don't rotate any tiles placed there.  There would be no new solutions found by rotating at this position, beyond what you would get by simply rotating the completed board.
+
 Then place the 2nd through 9th tiles, following a consistent location sequence, but only if they match to the tiles already on the board.  This builds a solution branch, to be abandoned if no next match is found.
 
 It turns out that this eliminates almost all of the brute-force possibilities, reducing the action of placing a tile onto the board to only 445 times to find all solutions, which is a HUGE reduction in effort required.  A python program written to use this method finishes in less than 1/20 of a second, on the same old PC.
