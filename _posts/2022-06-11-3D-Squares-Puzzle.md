@@ -1,5 +1,5 @@
 ---
-title:  "3D Squares Puzzle"
+title:  "3D Squares Puzzle by DaMert"
 layout: post
 categories:
   - puzzle
