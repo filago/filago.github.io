@@ -38,7 +38,7 @@ Keep trying branches (and abandoning any that dead-end) until all possible branc
 
 It turns out that this eliminates almost all of the brute-force possibilities, requiring only 445 tile placements onto the board.  This a HUGE reduction in effort required.  A python program written to use this method finishes in less than 1/20 of a second, on the same old PC.
 
-I haven't tried to solve the puzzle this way by hand, but I suspect it is reasonable to do it.  445 tile placements, at s 15 seconds each to allow time for keeping track of the plan, is about 2 hours.
+I suspect this approach would be reasonable to do by hand.  445 tile placements, at 15 seconds each to allow time for keeping track of the plan, would be about 2 hours.
 
 I would love to know if there's a way to solve it even faster.
 
