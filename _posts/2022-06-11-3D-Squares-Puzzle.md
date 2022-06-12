@@ -8,7 +8,7 @@ categories:
 
 ![3D Squares puzzle](/assets/images/IMG_8250 v2.jpg)
 
-We found this puzzle in the back of our games cupboard.  Abandoned years ago, I don't think we ever solved it.
+This puzzle was found in the back of our games cupboard.  Abandoned years ago, I don't think we ever solved it.
 
 It's deceptively simple to explain. There are 9 tiles to place on the 3x3 board, and the idea is to match all the half-planes between neighboring tiles.
 
