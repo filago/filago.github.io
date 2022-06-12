@@ -1,6 +1,6 @@
 ---
-layout: post
 title:  "3D Squares Puzzle"
+layout: post
 categories:
   - puzzle
   - python
@@ -10,14 +10,14 @@ categories:
 
 We found this puzzle in the back of our games cupboard.  Abandoned years ago, I don't think we ever solved it.
 
-It's deceptively simple to explain. There are just 9 tiles to place on the 3x3 board, and the idea is to match all the half-planes between neighboring tiles.
+It's deceptively simple to explain. There are 9 tiles to place on the 3x3 board, and the idea is to match all the half-planes between neighboring tiles.
 
 So how hard could it be?  It turns out that depends on how you approach it…
 
 ## Brains vs Brawn : 2 approaches to solve it
 
 ### The "brawn" method.
-The brute force approach: Test every possibility without ruling any of them out. 
+The brute force approach: Test every possibility.
 
 With 9 tiles and 4 rotation options each, the number of unique plays is overwhelming.
 
@@ -31,9 +31,11 @@ Even a computer program could take a long time to evaluate that many plays.  I c
 ### The "brains" method.
 Add some logic to eliminate possibilities that can't produce a solution.
 
-Begin the play on the center board square, and don't rotate any tiles placed there.  There would be no new solutions found by rotating at this position, beyond what you would get by simply rotating the completed board.
+Begin the play on the center square of the 3x3 board, and don't rotate any tiles placed there.  There would be no new solutions found by rotating a tile at this position, beyond what you would get by simply rotating the whole board.
 
 Then place the 2nd through 9th tiles, following a consistent location sequence, but only if they match to the tiles already on the board.  This builds a solution branch, to be abandoned if no next match is found.
+
+Keep building branches (and abandoning any that dead-end) until all possible branches have been tried.
 
 It turns out that this eliminates almost all of the brute-force possibilities, reducing the action of placing a tile onto the board to only 445 times to find all solutions, which is a HUGE reduction in effort required.  A python program written to use this method finishes in less than 1/20 of a second, on the same old PC.
 
