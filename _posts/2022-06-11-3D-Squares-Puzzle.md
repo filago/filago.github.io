@@ -8,11 +8,12 @@ categories:
 
 ![3D Squares Puzzle](/assets/images/IMG_8250 v3.jpg)
 
-This puzzle from DaMert Company recently emerged from a back corner of our games cabinet.  Abandoned years ago, I don't think we ever solved it.
+This puzzle recently emerged from a back corner of our games cabinet.  Abandoned years ago, I don't think we ever solved it.
 
 There are 9 tiles to place on the 3x3 board, with the goal of matching all the half-planes between neighboring tiles.
 
 It looks simple enough; how hard could it be to solve?  That depends on how you approach it…
+
 
 ## Two approaches: Brains vs Brawn.
 
@@ -37,13 +38,14 @@ Keep building branches (and abandoning any that dead-end) until all possible bra
 
 It turns out that this eliminates almost all of the brute-force possibilities, requiring only 445 tile placements onto the board.  This a HUGE reduction in effort required.  A python program written to use this method finishes in less than 1/20 of a second, on the same old PC.
 
-I haven't tried to solve the puzzle this way by hand yet, but I suspect it is reasonable.  (445 tile placements x 15 seconds each while keeping track of the plan) = about 2 hours.  And I would love to know if there's a way to solve it even faster.
+I haven't tried to solve the puzzle this way by hand, but I suspect it is reasonable to do it.  (445 tile placements x 15 seconds each while keeping track of the plan) = about 2 hours.  And I would love to know if there's a way to solve it even faster.
+
 
 ## Solutions
 Here are the only solutions I have found.  They are very similar, with just two corner tiles swapped between them.
 
-I wonder why they designed it this way - is it not possible to have just one solution?
-
 ![solution 1](/assets/images/IMG_8253 v3.jpg)
 
 ![solution 2](/assets/images/IMG_8255 v3.jpg)
+
+I wonder why they designed it with two almost identical solutions - is it not possible to have just one?
