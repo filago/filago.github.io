@@ -21,7 +21,7 @@ The brute force approach: Test every possibility.
 
 With 9 tiles and 4 rotation options each, the number of unique plays is overwhelming.
 
-#### (9! * 4^9) = 95.1 Billion possibilities
+#### (9! x 4^9) = 95.1 Billion possibilities
 
 If someone actually tried this approach by hand and was too stubborn to give up or try a better method,
 they would almost certainly die of old age without finding a solution.  As one Amazon reviewer pointed out, trying 1 attempt every second would require over 3,000 years to check them all.
