@@ -37,9 +37,9 @@ Then place the 2nd through 9th tiles, following a consistent location sequence, 
 
 Keep building branches (and abandoning any that dead-end) until all possible branches have been tried.
 
-It turns out that this eliminates almost all of the brute-force possibilities, reducing the action of placing a tile onto the board to only 445 times to find all solutions, which is a HUGE reduction in effort required.  A python program written to use this method finishes in less than 1/20 of a second, on the same old PC.
+It turns out that this eliminates almost all of the brute-force possibilities, requiring only 445 tile placements onto the board.  This a HUGE reduction in effort required.  A python program written to use this method finishes in less than 1/20 of a second, on the same old PC.
 
-I'm tempted to try solving it by hand using this method, at least for long enough to estimate how long it would take to complete.  And I would love to know if there's a way to improve on it to speed up the solution even more.
+I'm tempted to go through the effort to solve it by hand using this method, at least long enough to estimate how long it would take to complete.  And I would love to know if there's a way to improve on it to speed up the solution even more.
 
 ## Solutions
 Here are the only two solutions I've found.  They are almost identical, with the upper-right and lower-left tiles swapped.
