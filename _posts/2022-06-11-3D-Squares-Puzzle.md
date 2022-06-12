@@ -18,9 +18,9 @@ It looks simple enough; how hard could it be to solve?  That depends on how you 
 
 ### "Brawn" = Brute Force.  Test every possibility.
 
-With 9 tiles and 4 rotation options each, the number of unique plays is overwhelming.
+With 9 tiles and 4 rotation options each, the number of unique plays is surprisingly large.
 
-(9! x 4^9) = 95.1 Billion possibilities; a surprisingly large number for just 9 tiles.
+(9! x 4^9) = 95.1 Billion possibilities.
 
 If someone actually attempted to try every possibility by hand, they would almost certainly die of old age without finding a solution.  As one Amazon reviewer pointed out, trying one attempt every second would require **over 3,000 years** to check them all.
 
