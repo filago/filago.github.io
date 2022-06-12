@@ -8,9 +8,9 @@ categories:
 
 ![3D Squares puzzle](/assets/images/IMG_8250 v3.jpg)
 
-This puzzle was found in the back of our games cupboard.  Abandoned years ago, I don't think we ever solved it.
+This puzzle from DaMert Company recently emerged from a back corner of our games cupboard.  Abandoned years ago, I don't think we ever solved it.
 
-It's deceptively simple to explain. There are 9 tiles to place on the 3x3 board, and the idea is to match all the half-planes between neighboring tiles.
+It is deceptively simple to explain. There are 9 tiles to place on the 3x3 board, and the idea is to match all the half-planes between neighboring tiles.
 
 So how hard could it be?  It turns out that depends on how you approach it…
 
@@ -42,7 +42,7 @@ It turns out that this eliminates almost all of the brute-force possibilities, r
 I'm tempted to go through the effort to solve it by hand using this method, at least long enough to estimate how long it would take to complete.  And I would love to know if there's a way to improve on it to speed up the solution even more.
 
 ## Solutions
-Here are the only two solutions I've found.  They are almost identical, with the upper-right and lower-left tiles swapped.
+Here are the only two solutions I have found.  They are almost identical, with the upper-right and lower-left tiles swapped.
 
 ![solution 1](/assets/images/IMG_8253 v3.jpg)
 
