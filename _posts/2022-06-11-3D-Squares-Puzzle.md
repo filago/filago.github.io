@@ -40,7 +40,9 @@ It turns out that this eliminates almost all of the brute-force possibilities, r
 I haven't tried to solve the puzzle this way by hand yet, but I suspect it is reasonable.  (445 tile placements x 15 seconds each while keeping track of the plan) = about 2 hours.  And I would love to know if there's a way to solve it even faster.
 
 ## Solutions
-Here are the only solutions I have found.  They are very similar, with only two corner tiles swapped.  I wonder why they did it this way - is it not possible to have just one solution?
+Here are the only solutions I have found.  They are very similar, just two corner tiles swapped between them.
+
+I wonder why they did it this way - is it not possible to have just one solution?
 
 ![solution 1](/assets/images/IMG_8253 v3.jpg)
 
