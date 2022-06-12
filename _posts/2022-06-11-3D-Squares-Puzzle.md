@@ -14,19 +14,19 @@ It's deceptively simple to explain. There are 9 tiles to place on the 3x3 board,
 
 So how hard could it be?  It turns out that depends on how you approach it…
 
-## Brains vs Brawn : 2 approaches to solve it
+## Brains vs Brawn: Two approaches
 
 ### The "brawn" method.
 The brute force approach: Test every possibility.
 
 With 9 tiles and 4 rotation options each, the number of unique plays is overwhelming.
 
-(9! * 4^9) = 95.1 Billion possibilities.
+#### (9! * 4^9) = 95.1 Billion possibilities
 
 If someone actually tried this approach by hand and was too stubborn to give up or try a better method,
 they would almost certainly die of old age without finding a solution.  As one Amazon reviewer pointed out, trying 1 attempt every second would require over 3,000 years to check them all.
 
-Even a computer program could take a long time to evaluate that many plays.  I created a python program for it, which evaluates about 20,000 such plays per second and running on a 12 year old PC.  This would require almost 2 months to finish.
+Even a computer program could take a long time to evaluate that many plays.  I created a python program for it, which evaluates about 20,000 such plays per second, running on a 12 year old PC.  This would take almost 2 months to finish.
 
 ### The "brains" method.
 Add some logic to eliminate possibilities that can't produce a solution.
