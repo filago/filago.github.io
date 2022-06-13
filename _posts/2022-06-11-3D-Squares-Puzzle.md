@@ -43,7 +43,7 @@ I suspect this approach would be reasonable to do by hand.  445 tile placements,
 I would love to know if there's a way to solve it even faster.
 
 
-## Solutions
+## Solutions (Spoiler Alert!)
 Here are the only solutions I have found.  They are both similar, with just two corner tiles swapped between them.
 
 ![solution 1](/assets/images/IMG_8253 v3.jpg)
