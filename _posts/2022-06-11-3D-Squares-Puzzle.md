@@ -12,7 +12,7 @@ This puzzle recently emerged from a back corner of our games cabinet.  Abandoned
 
 There are 9 tiles to place on the 3x3 board, with the goal of matching all the half-planes between neighboring tiles.
 
-It looks simple enough; how hard could it be to solve?  That depends on how you approach it…
+It looks simple enough; how hard could it be to solve?
 
 ---
 
@@ -45,8 +45,8 @@ I would love to know if there's a way to solve it even faster.
 
 ---
 
-## Solutions (Spoiler Alert!)
-Here are the only solutions I have found.  They are both similar, with just two corner tiles swapped between them.
+## Solutions
+Here are the only solutions I have found.  They are very similar, with just two corner tiles swapped between them.
 
 ![solution 1](/assets/images/IMG_8253 v3.jpg)
 
