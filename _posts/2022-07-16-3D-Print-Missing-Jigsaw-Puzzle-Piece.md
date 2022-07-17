@@ -6,7 +6,7 @@ categories:
   - 3D print
 ---
 
-![3D Print Puzzle Piece](/assets/images/IMG_E8402.JPG)
+![3D Print Puzzle Piece](/assets/images/IMG_8402 v1.jpg)
 
 One of the least useful "repairs" I have done using CAD and a 3D printer.
 
