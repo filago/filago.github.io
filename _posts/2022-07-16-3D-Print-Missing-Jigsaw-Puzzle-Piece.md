@@ -8,6 +8,6 @@ categories:
 
 ![3D Print Puzzle Piece](/assets/images/IMG_E8402.jpg)
 
-Here's one of the least useful "repairs" I have done using CAD and a 3D printer.
+One of the least useful "repairs" I have done using CAD and a 3D printer.
 
-But the learning gained in the process of doing it made up for it!
+The puzzle is really no better than before.  The real benefit was to me; in learning how to do it.
