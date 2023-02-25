@@ -7,9 +7,9 @@ categories:
 
 ![Excel file screenshot](/assets/images/USD-GBP FX rate query, rev 3.png)
 
-Spent way more time to create this than it could possibly ever save me, but 100% worth the effort for the learning.
+This took way more time to create than it could possibly ever save me.  The real value to me is what I learned along the way.
 
-A few of the key features of this file:
-- pulls historical foreign exchange rates from online Federal Reserve Board data, into an Excel table.
+A few key features of this workbook:
+- pulls historical foreign exchange rates from a Federal Reserve Board website, into an Excel table.
 - uses XLOOKUP formulas with spill to return records matching the user input dates, or closest earlier dates if not available. 
-- uses further XLOOKUP formulas with IF logic to provide the most recent valid rate when a rate is listed as ND (no data.)
+- uses further XLOOKUP formulas to provide the most recent valid rate when a rate is listed as ND (no data.)
