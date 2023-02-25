@@ -8,7 +8,7 @@ categories:
 
 ![3D Squares Puzzle](/assets/images/IMG_8250 v3.jpg)
 
-This puzzle recently emerged from a back corner of our games cabinet.  Abandoned years ago, I don't think we ever solved it.
+This puzzle recently emerged from a back corner of our games cabinet.  Abandoned years ago, I'm pretty sure we never solved it.
 
 There are 9 tiles to place on the 3x3 board, with the goal of matching all the half-planes between neighboring tiles.
 
@@ -26,7 +26,7 @@ With 9 tiles and 4 rotation options each, the number of unique plays is surprisi
 
 If someone actually attempted to try every possibility by hand, they would almost certainly die of old age without finding a solution.  As one Amazon reviewer pointed out, even if you could try one every second it would require **over 3,000 years** to check them all.
 
-Even a computer program could take a long time to evaluate that many plays.  My computer from 2010 can evaluate about 20,000 plays per second using python, so it would take almost two months to finish.  This could be improved to some extent with a faster computer or a more efficient program, but I'm more interested in fundamentally better strategies to solve the puzzle.
+Even a computer program could take a long time to evaluate that many plays.  My old PC from 2010 can evaluate about 20,000 plays per second using python, so it would take almost two months to finish.  This could be improved to some extent with a faster computer or a more efficient program, but I'm more interested in finding fundamentally better strategies to solve the puzzle.
 
 ### "Brains" = Get Smart.  Don't test what can't work.
 Here, we skip the possibilities which we can forsee won't produce a solution.
@@ -37,11 +37,11 @@ Then place the 2nd through 9th tiles, but only if they match to the tiles alread
 
 Keep trying branches (and abandoning any that dead-end) until all possible branches have been tested.
 
-It turns out that this eliminates almost all of the brute-force possibilities, requiring only 445 tile placements onto the board.  This a HUGE reduction in effort required.  A python program using this method finishes in less than 1/20 of a second on my computer.
+It turns out that this eliminates almost all of the brute-force possibilities, requiring only 445 tile placements onto the board to check for all possible solutions.  This a HUGE reduction in effort required.  A python program using this method finishes in less than 1/20 of a second on my computer.
 
 I suspect this approach would be reasonable to do by hand.  445 tile placements, at 15 seconds each to allow time for keeping track of the plan, would be about 2 hours.
 
-I would love to know if there's a way to solve it even faster.
+This is the fastest method I can think of, and I would love to know if there's a way to solve it even faster.
 
 ---
 
