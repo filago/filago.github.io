@@ -11,5 +11,5 @@ Spent way more time to create this than it could possibly ever save me, but 100%
 
 A few of the key features of this file:
 - pulls historical foreign exchange rates from online Federal Reserve Board data, into an Excel table.
-- uses XLOOKUP formulas with spill to return the record matching the user input date, or closest earlier date if not available. 
-- uses further XLOOKUP formulas with IF logic to provide the most recent valid rate when rate is listed as ND (no data.)
+- uses XLOOKUP formulas with spill to return records matching the user input dates, or closest earlier dates if not available. 
+- uses further XLOOKUP formulas with IF logic to provide the most recent valid rate when a rate is listed as ND (no data.)
