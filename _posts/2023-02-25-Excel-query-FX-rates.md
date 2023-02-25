@@ -5,7 +5,7 @@ categories:
   - Excel  
 ---
 
-![Excel file screenshot](/assets/images/USD-GBP FX rate query, rev 3.png)
+![Excel file screenshot](/assets/images/USD-GBP FX rate query, rev 4.png)
 
 This took way more time to create than it could possibly ever save me.  The real value to me is what I learned along the way.
 
